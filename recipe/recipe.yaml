@@ -30,7 +30,6 @@ tests:
   - python:
       imports:
         - chemformula
-        - elements
       pip_check: true
       python_version:
         - ${{ python_min }}.*
