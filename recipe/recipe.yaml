@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - casregnum
+    - casregnum >=1.1.2
 
 tests:
   - python:
