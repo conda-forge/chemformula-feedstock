@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: chemformula
-  version: 1.5.0
+  version: "1.5.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/chemformula-${{ version }}.tar.gz
-  sha256: 0556362f90f6d6fe9d9316c04aaee0e0b7c132aab1fbc5249c9890839ec32c52
+  sha256: b743de3ba44609781f6e267860084481eb415d845d9af184016917b2f1a3e69b
 
 build:
   number: 0
